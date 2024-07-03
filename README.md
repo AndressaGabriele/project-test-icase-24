@@ -18,17 +18,14 @@ Este projeto consiste no desenvolvimento de uma aplicação HTML5 dividida em do
 - Node.js para BFF (Backend for Frontend)
 - Docker para containerização dos micro-frontends e BFF
 - API de busca do YouTube
-- Testes unitários
 
 ## Requisitos de Desenvolvimento
 
-- Controle de sessão e BFF utilizando Node.js (ou outras linguagens como Go ou Ruby)
+- Controle de sessão e BFF utilizando Node.js 
 - Navegação por rotas
 - Código tipado
-- Design responsivo
 - Micro-frontends separados
 - Docker para containerização
-- Testes unitários
 
 ## Instruções para Compilar, Testar e Rodar o Projeto
 
@@ -48,7 +45,6 @@ Este projeto consiste no desenvolvimento de uma aplicação HTML5 dividida em do
 3. **Instalar dependências**
 ```npm install``
 4. **Compilar os micro-frontends**
-
 ```npm run build:mf_drawer npm run build:mf_videos```
 
 5. **Rodar os containers Docker**
@@ -57,26 +53,6 @@ Este projeto consiste no desenvolvimento de uma aplicação HTML5 dividida em do
 6. Acessar a aplicação:
 
 - Abra seu navegador e acesse http://localhost:3000 para visualizar a aplicação.
-
-project-test-icasei-24/
-│
-├── mf_drawer/
-│   ├── Dockerfile
-│
-├── mf_videos/
-│   ├── Dockerfile
-│
-├── bff/
-│   ├── node_modules/
-│   ├── src/
-│   ├── package.json
-│   └── ...
-│
-├── .env
-├── .gitignore
-├── docker-compose.yml
-├── README.md
-└── ...
 
 ## Considerações Finais
 
