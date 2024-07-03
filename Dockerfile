@@ -2,6 +2,9 @@ FROM node:14
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
+
 COPY . .
+
 EXPOSE 3000
-CMD ["node", "serve.js"]
+
+CMD ["node", "backend/server.js"]
