@@ -40,7 +40,7 @@ Este projeto consiste no desenvolvimento de uma aplicação HTML5 dividida em do
 1. **Clone o repositório**
 ```git clone https://github.com/seu-usuario/teste-icasei-frontend.git cd  teste-icasei-frontend```
 2. **Configurar a API Key**
-- Crie um arquivo .env na raiz do projeto e adicione sua API key do YouTube:
+```Crie um arquivo .env na raiz do projeto e adicione sua API key do YouTube```
 ```YOUTUBE_API_KEY=your_api_key_here```
 3. **Instalar dependências**
 ```npm install```
@@ -48,7 +48,7 @@ Este projeto consiste no desenvolvimento de uma aplicação HTML5 dividida em do
 ```npm run build:mf_drawer npm run build:mf_videos```
 5. **Rodar os containers Docker**
 ```docker-compose up --build```
-6. Acessar a aplicação:
+6. **Acessar a aplicação**
 - Abra seu navegador e acesse http://localhost:3000 para visualizar a aplicação.
 
 ## Considerações Finais
